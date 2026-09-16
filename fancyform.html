@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form</title>
+
+    <style>
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form-row label {
+            width: 120px;
+        }
+
+        .form-row input[type="text"] {
+            width: 250px;
+            padding: 5px;
+        }
+
+        .form-row textarea {
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>Online Registration Form</h3>
+
+    <form action="#" method="post">
+
+        <div class="form-row">
+            <label>First Name:</label>
+            <input type="text" placeholder="Enter your first name">
+        </div>
+
+        <div class="form-row">
+            <label>Middle Name:</label>
+            <input type="text" placeholder="Enter your middle name">
+        </div>
+
+        <div class="form-row">
+            <label>Last Name:</label>
+            <input type="text" placeholder="Enter your last name">
+        </div>
+
+        <div class="form-row">
+            <label>Address:</label>
+            <textarea cols="20" rows="5"></textarea>
+        </div>
+
+        Gender:
+        <br>
+
+        Male: <input type="radio" name="gender">
+        Female: <input type="radio" name="gender">
+        Other: <input type="radio" name="gender">
+
+        <br><br>
+
+        Select your country:
+        <select>
+            <option>Select</option>
+            <option>Nepal</option>
+            <option>Australia</option>
+            <option>UK</option>
+            <option>Japan</option>
+            <option>USA</option>
+        </select>
+
+        <br><br>
+
+        Hobbies:
+        <br>
+
+        Dance: <input type="checkbox" name="dance">
+        Trekking: <input type="checkbox" name="trek">
+        Sing: <input type="checkbox" name="sing">
+        Movies: <input type="checkbox" name="movies">
+
+        <br><br>
+
+        Please upload your file:
+        <input type="file">
+
+        <br><br>
+
+        <input type="submit" value="Register Me">
+        <input type="reset" value="Cancel">
+
+    </form>
+
+</body>
+</html>
