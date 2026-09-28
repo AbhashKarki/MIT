@@ -1,21 +1,137 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Abhash Karki - Personal Portfolio</title>
 </head>
+
 <body>
 
-    <marquee>Welcome to MIT College</marquee>
-    <h1> Ram</h1>
-    <h2> Hari</h2>
-    <h3> Shyam</h3>
-    <h4> Krishna</h4>
-    <h5> Laxman</h5>
+```
+<header>
+    <h1>Abhash Karki</h1>
+    <p>Computer Science Student & Aspiring Software Developer</p>
 
-    <font color ="red"> Sakshyam</font>
-    H<sub>2</sub>0
-    a<sup>2</sup>-b<sup>2</sup>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section id="about">
+        <h2>About Me</h2>
+   <img src="profile.jpg" alt="Portrait of Abhash Karki"
+                 width="200"
+                 height="200">                 
+        <p>
+            I am a computer science student interested in web development,
+            networking, software development, and emerging technologies.
+            I enjoy building practical projects and learning how different
+            technologies work together to solve real-world problems.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <dl>
+            <dt>HTML5</dt>
+            <dd>Creating structured and accessible web pages using semantic HTML.</dd>
+
+            <dt>CSS</dt>
+            <dd>Understanding layouts, responsive design, and visual presentation.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Building interactive functionality for web applications.</dd>
+
+            <dt>Python</dt>
+            <dd>Writing programs, automating tasks, and developing applications.</dd>
+
+            <dt>Computer Networking</dt>
+            <dd>Understanding TCP/IP, DNS, DHCP, routing, and network security.</dd>
+
+            <dt>Git</dt>
+            <dd>Managing source code and collaborating on software projects.</dd>
+        </dl>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Construction Estimating Platform</h3>
+            <p>
+                A construction estimating project designed to help contractors
+                organize takeoffs, estimates, project information, and other
+                construction workflows.
+            </p>
+            <p>
+                <a href="https://github.com/yourusername/construction-estimator">
+                    View Repository
+                </a>
+            </p>
+        </article>
+
+        <article>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A semantic HTML5 portfolio demonstrating accessible structure,
+                navigation, project information, technical skills, and a
+                contact form without relying on CSS or JavaScript.
+            </p>
+            <p>
+                <a href="https://github.com/yourusername/personal-portfolio">
+                    View Repository
+                </a>
+            </p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="#" method="post">
+
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          cols="40"
+                          required></textarea>
+            </p>
+
+            <p>
+                <button type="submit">Send Message</button>
+            </p>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Abhash Karki. All rights reserved.</p>
+</footer>
+```
+
 </body>
 </html>
